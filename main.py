@@ -260,7 +260,6 @@ def test(test_loader, tnet):
     return total
 
 
-
 def save_checkpoint(state, is_best, filename='checkpoint.pth.tar'):
     """Saves checkpoint to disk"""
     directory = "runs/%s/" % (args.name)
